@@ -1,4 +1,23 @@
-body {
-  background-color: aqua;
+#container {
+  display: block;
+  margin: 0 auto;
   text-align: center;
+  background-color: aqua;
+  width: 600px;
+}
+#select-form {
+  width: 100%;
+  text-align: center;
+}
+#first-city {
+  display: flex;
+  justify-content: space-between;
+}
+#second-city {
+  display: flex;
+  justify-content: space-between;
+}
+#third-city {
+  display: flex;
+  justify-content: space-between;
 }
