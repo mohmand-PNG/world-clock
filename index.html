@@ -11,36 +11,53 @@
     <title>world-clock</title>
   </head>
   <body>
-    <div class="container">
-      <h1>World Clock</h1>
-
-      <select id="city">
-        <option value="">Select a city..</option>
+    <div id="container">
+      <h1>world-clock</h1>
+      <select name="" id="selectForm">
+        <option value="">Select a city</option>
         <option value="current">My current location</option>
         <option value="Europe/London">London</option>
         <option value="America/New_York">New York</option>
         <option value="Pacific/Auckland">Auckland</option>
       </select>
-
       <div id="cities">
-        <div class="city" id="los-angeles">
+        <div class="first-city" id="first-city">
           <div>
             <h2>Los Angeles</h2>
-            <div class="date"></div>
+            <div id="first-city-date">
+              <p></p>
+            </div>
           </div>
-          <div class="time"></div>
+          <div>
+            <h1 id="first-city-time"><small></small></h1>
+          </div>
         </div>
-        <div class="city" id="paris">
+        <div class="second-city" id="second-city">
           <div>
             <h2>Paris</h2>
-            <div class="date"></div>
+            <div id="second-city-date">
+              <p>october 9th, 2024</p>
+            </div>
           </div>
-          <div class="time"></div>
+          <div>
+            <h1 id="second-city-time">7:03:10 <small>AM</small></h1>
+          </div>
+        </div>
+        <div class="third-city" id="third-city">
+          <div>
+            <h2>Sydney</h2>
+            <div id="third-city-date">
+              <p>october 9th, 2024</p>
+            </div>
+          </div>
+          <div>
+            <h1 id="third-city-time">7:03:10 <small>AM</small></h1>
+          </div>
         </div>
       </div>
     </div>
     <footer>
-      this project was by
+      this project was coded by
       <a href="https://github.com/settings/profile" target="_blank"
         >Marwa Mohmand</a
       >
